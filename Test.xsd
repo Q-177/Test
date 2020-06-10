@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="teaching-test">
+		<complexType>
+			<sequence>
+				<element name="commoditly" minOccurs="1" maxOccurs="9999">
+					<complexType>
+						<sequence>
+							<element name="commoditly-name" type="string"></element>
+							<element name="price" type="integer"></element>
+							<element name="mode-of-payment" type="string"></element>
+						</sequence>
+						<attribute name="no" type="integer" use="required"></attribute>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+</element>
+</schema>
